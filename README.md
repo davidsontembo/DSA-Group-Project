@@ -1,1 +1,7 @@
 # DSA-Group-Project
+This is a music playback mobile application for a Namibian music start-up.
+The app works with a doubly linked list and consist of 3 main modules.
+1) User managment module; where users are able to login to the application as well as manage their login creditials. New users aree able to create new profiles using a valid email address and user generated password. The functions under this module consist of a function to login, sign up a new user as well as change a registered users password.
+2) Music management module; where users can manage the music under their profile playlist. This means that users can add new music as well as remove music from their playlist. Users can also search for music either from their local collection of music or from a global data base of mussic. These searches are done either with the title of the song or the name of the artist. Globally searched songs can be added to the playlist. Functions under this module are addMusic, removeMusic as well as search for music whether locally or globally.
+3) Play module; here users are able to load and play song on their playlist. User are able to skip to thee next song or play a prious song. Songs can also be put on repeat by the user. Functions include loading the playlist, playing a selected song, playing a previous song, playing the next song, or putting the current song on repeat.
+The application automatically plays the entire playlist until the last song that was added to the list.
